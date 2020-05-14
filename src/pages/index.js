@@ -1,8 +1,8 @@
 import React from "react"
-import Link from '../componenets/link';
-import Twitter from "../componenets/twitter";
-import Facebook from "../componenets/facebook";
-import Instagram from "../componenets/instagram";
+import Link from '../componenets/Link';
+import Twitter from "../componenets/Twitter";
+import Facebook from "../componenets/Facebook";
+import Instagram from "../componenets/Instagram";
 
 export default function Home() {
     const links = require('../links.json')
