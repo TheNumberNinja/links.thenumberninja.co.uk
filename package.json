@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "links.thenumberninja.co.uk",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Links for The Number Ninja",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -15,17 +15,19 @@
   },
   "dependencies": {
     "gatsby": "^2.21.22",
+    "gatsby-plugin-postcss": "^2.3.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
     "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/TheNumberNinja/links.thenumberninja.co.uk"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/TheNumberNinja/links.thenumberninja.co.uk/issues"
   }
 }
