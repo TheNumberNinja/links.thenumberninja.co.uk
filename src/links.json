@@ -1,22 +1,26 @@
 [
   {
-    "link": "https://www.drivethenetwork.com/events/track-and-trace-your-money/",
-    "title": "Workshop: Track and trace your money"
+    "link": "https://www.gov.uk/guidance/claim-a-grant-through-the-coronavirus-covid-19-self-employment-income-support-scheme",
+    "title": "HMRC: SEISS grants"
   },
   {
+    "link": "https://www.gov.uk/coronavirus/business-support",
+    "title": "HMRC: General financial support"
+  }
+/*   {
     "link": "https://thenumber.ninja/covid-19",
     "title": "COVID-19: information about financial support for businesses"
-  },
-  {
-    "link": "https://thenumber.ninja/book-a-call/",
-    "title": "Book a call 📞"
-  },
+  }, */
   {
     "link": "https://thenumber.ninja/power-hour/",
     "title": "Have some burning questions? Book a power hour"
   },
   {
+    "link": "https://thenumber.ninja/book-a-call/",
+    "title": "Want to work with me? Book a call 📞"
+  },
+  {
     "link": "https://thenumber.ninja/",
-    "title": "Check out my website"
+    "title": "Visit my website"
   }
 ]
