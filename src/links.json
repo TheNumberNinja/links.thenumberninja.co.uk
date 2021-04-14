@@ -8,6 +8,10 @@
     "title": "Sign up to the newsletter"
   },
   {
+    "link": "https://thenumber.ninja/finance-sidekick/",
+    "title": "Learn more about the Finance Sidekick 🦸🏻‍♀️"
+  },
+  {
     "link": "https://thenumber.ninja/book-a-call/",
     "title": "Want to work with me? Book a call 📞"
   },
@@ -16,15 +20,7 @@
     "title": "Visit my website"
   },
   {
-    "link": "https://www.gov.uk/guidance/claim-a-grant-through-the-coronavirus-covid-19-self-employment-income-support-scheme",
-    "title": "HMRC: SEISS grants"
-  },
-  {
-    "link": "https://www.gov.uk/guidance/deferral-of-vat-payments-due-to-coronavirus-covid-19",
-    "title": "HMRC: VAT deferral payment scheme"
-  },
-  {
     "link": "https://www.gov.uk/coronavirus/business-support",
-    "title": "HMRC: General financial support"
+    "title": "HMRC: Covid-19 financial support"
   }
 ]
