@@ -1,7 +1,6 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import {Helmet} from "react-helmet"
 import Link from '../componenets/Link';
-import Twitter from "../componenets/Twitter";
 import Facebook from "../componenets/Facebook";
 import Instagram from "../componenets/Instagram";
 
@@ -12,7 +11,7 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
+                <meta charSet="utf-8"/>
                 <title>The Number Ninja links</title>
             </Helmet>
 
@@ -21,7 +20,6 @@ export default function Home() {
                 {linkElements}
             </div>
             <div id="social" className="flex flex-row justify-center">
-                <Twitter/>
                 <Facebook/>
                 <Instagram/>
             </div>
