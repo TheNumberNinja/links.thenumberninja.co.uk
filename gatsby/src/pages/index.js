@@ -3,10 +3,11 @@ import {Helmet} from "react-helmet"
 import Link from '../componenets/Link';
 import Facebook from "../componenets/Facebook";
 import Instagram from "../componenets/Instagram";
+import {graphql} from "gatsby";
 
-export default function Home() {
-    const links = require('../links.json')
-    const linkElements = links.map((item) => <Link key={item.link} link={item.link} title={item.title}/>);
+const Home = ({data}) => {
+    const links = data.sanityLinktree.links;
+    const linkElements = links.map((item) => <Link key={item.url} link={item.url} title={item.title}/>);
 
     return (
         <>
@@ -26,3 +27,17 @@ export default function Home() {
         </>
     )
 }
+export default Home
+
+
+export const query = graphql`
+    query {
+        sanityLinktree(_id: {eq: "links"}) {
+            links {
+                title
+                url
+            }
+        }
+    }
+
+`
