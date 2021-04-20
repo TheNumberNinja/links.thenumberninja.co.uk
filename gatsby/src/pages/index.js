@@ -6,7 +6,7 @@ import Instagram from "../componenets/Instagram";
 import {graphql} from "gatsby";
 
 const Home = ({data}) => {
-    const links = data.sanityLinktree.links;
+    const links = data.sanityLinktree?.links || [];
     const linkElements = links.map((item) => <Link key={item.url} link={item.url} title={item.title}/>);
 
     return (
