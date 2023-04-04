@@ -16,7 +16,7 @@ const Home = ({data}) => {
                 <title>The Number Ninja links</title>
             </Helmet>
 
-            <img className="h-32 mx-auto" src={'/logo_512.png'} alt="The Number Ninja Logo"/>
+            <img className="h-32 mx-auto" src={'/logo_512.png'} height={128} width={128} alt="The Number Ninja Logo"/>
             <div className="flex flex-col">
                 {linkElements}
             </div>
